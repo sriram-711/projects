@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>www.Sriram Projects.com</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css"
+    integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BiG_PZb4HnDdKK-BCpQ2pItYDaANvzCgxA&usqp=CAU"
+              class="nav-logo" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Customer Care</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sign.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="sign.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cart">
+            <a href="cart.html"><i class="ri-shopping-cart-fill"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container mt-4">
+      <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="max-height: 500px;"> <!-- Adjusted height -->
+          <div class="carousel-item active">
+            <img src="https://openqcm.com/wp-content/uploads/2021/02/Electronics_animated-2.gif" class="d-block w-100"
+              alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://imgs.search.brave.com/YCWfACmMwHUhL0EIMU8IEyKQ2VafEFysODpPmfRYkR4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/bWFrZXppbmUuY29t/L3VwbG9hZHMvMjAx/Mi8xMi9wb3QtdHdp/c3RfNDUwcHhfMW1i/LTE1MzYxMS5naWY.gif"
+              class="d-block w-100" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://miro.medium.com/v2/resize:fit:1200/1*j_HK4f1LuXCb2d7WdPb19g.gif" class="d-block w-100"
+              alt="Slide 3">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <div class="container mt-4">
+      <!-- Search bar -->
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search..." aria-label="Search"
+          aria-describedby="button-addon2" id="searchInput">
+        <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+      </div>
+
+      <!-- Display area for search results -->
+      <div id="searchResults"></div>
+    </div>
+
+    <script>
+      // Function to handle search
+      document.getElementById('button-addon2').addEventListener('click', function () {
+        // Get the search query
+        var query = document.getElementById('searchInput').value;
+
+        // Perform search (Example: Displaying the search query)
+        var searchResultsElement = document.getElementById('searchResults');
+        searchResultsElement.innerHTML = '<p>Search Results Not Found ' + query + '</p>';
+      });
+    </script>
+    </div>
+    <div class="container mt-4">
+      <div class="row justify-content-center">
+        <!-- Your card grid here -->
+        <!-- Add margin or padding to create a gap -->
+        <div class="col-lg-3 col-md-6 mb-4">
+          <!-- Your card content -->
+        </div>
+        <!-- Repeat for other cards -->
+      </div>
+    </div>
+
+    <div class="container">
+
+
+      <div class="row justify-content-center mt-4">
+        <style>
+          .card-img-top {
+            height: 200px;
+            /* Adjust the height as needed */
+            object-fit: cover;
+            /* This ensures the image covers the entire space */
+            width: 100%;
+            /* Ensures the width takes the entire space */
+          }
+        </style>
+        <center><h1>Hardware Projects</h1></center>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://i.ytimg.com/vi/W8kh3Jd_AsI/maxresdefault.jpg"
+                class="card-img-top" alt="img-1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Solar tracker</h5>
+                <p>MRP:<del id="orange_originalPrice">4000</del></p>
+                <p>Deal Price (45% off):<span id="discountedPrice">2200</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18403</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top" lt="img-2">
+              <div class="card-body text-center">
+                <h5 class="card-title">smart glasses for blind</h5>
+                <p>MRP: <del id="kiwi_originalPrice">4000</del></p>
+                <p>Deal Price (60% off): <span id="discountedPrice">1600</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18401</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://projects.arduinocontent.cc/thumbnails/resized-web-5924019a-4149-42b7-96cf-7f435f6a45b5.blob"
+                class="card-img-top" alt="img-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">obstacle avoiding car</h5>
+                <p>MRP: <del id="placeholder1_originalPrice">6000</del></p>
+                <p>Deal Price (20% off): $<span id="discountedPrice">4800</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18402</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://projects.arduinocontent.cc/thumbnails/resized-web-6da54818-efad-4679-90ff-cef083b86840.jpg"
+                class="card-img-top" alt="img-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Drone </h5>
+                <p>MRP:<del id="placeholder2_originalPrice">12000</del></p>
+                <p>Deal Price (25% off): <span id="discountedPrice">9000</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18404</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://projects.arduinocontent.cc/thumbnails/resized-web-8d220b4b-0833-4c7b-8eb7-abe3a8c45996.blob"
+                class="card-img-top" alt="img-1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Traffic light </h5>
+                <p>MRP: <del id="orange_originalPrice">1500</del></p>
+                <p>Deal Price (40% off): <span id="discountedPrice">900</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18405</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://circuitbest.com/wp-content/uploads/2020/10/Line-Follower.jpg"
+                class="card-img-top" alt="img-2">
+              <div class="card-body text-center">
+                <h5 class="card-title">Line follower </h5>
+                <p>MRP: <del id="kiwi_originalPrice">6000</del></p>
+                <p>Deal Price (30% off):<span id="discountedPrice">4200</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18406</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://projects.arduinocontent.cc/thumbnails/resized-web-6fcdf00f-59b6-4af6-99c1-cc53f044adef.blob"
+                class="card-img-top" alt="img-2">
+              <div class="card-body text-center">
+                <h6 class="card-title"> wheelchair for disabled people</h6>
+                <p>MRP:<del id="kiwi_originalPrice">4000</del></p>
+                <p>Deal Price (25% off): <span id="discountedPrice">3000</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18407</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://techatronic.com/wp-content/uploads/2023/03/PXL_20230207_031919193.webp"
+                class="card-img-top" alt="img-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Laser Security System</h5>
+                <p>MRP:<del id="placeholder2_originalPrice">2500</del></p>
+                <p>Deal Price (20% off):<span id="discountedPrice">2000</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18408</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="https://i.ytimg.com/vi/b3fZHyqZ8wM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCWjWnPFTsVCV08i8lJOhizOibFGw"
+                class="card-img-top" alt="img-1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Fire Controller</h5>
+                <p>MRP: <del id="orange_originalPrice">3000</del></p>
+                <p>Deal Price (40% off): <span id="discountedPrice">1800</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:18409</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://content.instructables.com/FU9/3CNL/LP03C5YJ/FU93CNLLP03C5YJ.jpg?auto=webp&frame=1&width=2100"
+                class="card-img-top" alt="img-2">
+              <div class="card-body text-center">
+                <h6 class="card-title"> Robotic-hand</h6>
+                <p>MRP:<del id="kiwi_originalPrice">10000</del></p>
+                <p>Deal Price (20% off):<span id="discountedPrice">8000</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:184010</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://content.instructables.com/FPJ/3UJZ/LFB4GUYG/FPJ3UJZLFB4GUYG.jpg?auto=webp&fit=bounds&frame=1"
+                class="card-img-top" alt="img-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Human following robot</h5>
+                <p>MRP:<del id="placeholder1_originalPrice">2500</del></p>
+                <p>Deal Price (20% off): $<span id="discountedPrice">2000</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:184011</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://i.ytimg.com/vi/JrJ1XXR5kS8/maxresdefault.jpg"
+                class="card-img-top" alt="img-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Voice control car</h5>
+                <p>MRP:<del id="placeholder2_originalPrice">3000</del></p>
+                <p>Deal Price (20% off):<span id="discountedPrice">2400</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:184012</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <center><h1>Sofware Projects</h1></center>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img
+              src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2023_04_Fingers-Distance-1.jpg"
+              class="card-img-top" alt="img-2">
+            <div class="card-body text-center">
+              <h6 class="card-title">HandGesture using opencv</h6>
+              <p>MRP:<del id="kiwi_originalPrice">1500</del></p>
+              <p>Deal Price (40% off):<span id="discountedPrice">900</span></p>
+              <button type="button" class="btn btn-success">Add to Cart</button>
+              <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+              <br><br>
+              <h6>code:411711</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/3/38/Detected-with-YOLO--Schreibtisch-mit-Objekten.jpg"
+              class="card-img-top" alt="img-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Object detection</h5>
+              <p>MRP:<del id="placeholder1_originalPrice">1000</del></p>
+              <p>Deal Price (20% off):<span id="discountedPrice">800</span></p>
+              <button type="button" class="btn btn-success">Add to Cart</button>
+              <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+              <br><br>
+              <h6>code:411701</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img
+              src="https://i0.wp.com/sefiks.com/wp-content/uploads/2018/01/kid-expressions-cover.png?resize=459%2C409&ssl=1"
+              class="card-img-top" alt="img-4">
+            <div class="card-body text-center">
+              <h5 class="card-title">Emotion Recognition</h5>
+              <p>MRP:<del id="placeholder2_originalPrice">1500</del></p>
+              <p>Deal Price (20% off):<span id="discountedPrice">1200</span></p>
+              <button type="button" class="btn btn-success">Add to Cart</button>
+              <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+              <br><br>
+              <h6>code:411702</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://media.istockphoto.com/id/1352322853/vector/biometric-facial-recognition.jpg?s=612x612&w=0&k=20&c=0p4h1qmSH3Y2ueztOyZI_eR41u6dHQZj4U0z7wfd3oo="
+                class="card-img-top" alt="img-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Face Recognition</h5>
+                <p>MRP:<del id="placeholder2_originalPrice">2000</del></p>
+                <p>Deal Price (30% off):<span id="discountedPrice">1400</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:411703</h6>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img
+              src="https://viso.ai/wp-content/uploads/2021/06/optical-character-recognition-ocr.jpg"
+              class="card-img-top" alt="img-4">
+            <div class="card-body text-center">
+              <h5 class="card-title">Character Recognition</h5>
+              <p>MRP:<del id="placeholder2_originalPrice">1500</del></p>
+              <p>Deal Price (20% off):<span id="discountedPrice">1200</span></p>
+              <button type="button" class="btn btn-success">Add to Cart</button>
+              <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+              <br><br>
+              <h6>code:411704</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://www.mouser.co.il/blog/Portals/11/Vehicle%20Detection%20AI_Theme%20Image_min.jpg"
+                class="card-img-top" alt="img-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Vehicle detection system</h5>
+                <p>MRP:<del id="placeholder2_originalPrice">2000</del></p>
+                <p>Deal Price (30% off):<span id="discountedPrice">1400</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:411703</h6>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://viso.ai/wp-content/uploads/2022/08/automated-number-plate-recognition-anpr.jpg"
+                class="card-img-top" alt="img-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Number plate recognition</h5>
+                <p>MRP:<del id="placeholder2_originalPrice">2000</del></p>
+                <p>Deal Price (30% off):<span id="discountedPrice">1400</span></p>
+                <button type="button" class="btn btn-success">Add to Cart</button>
+                <button type="button" class="btn btn-warning"><a href="buy.html">Buy Now</a></button>
+                <br><br>
+                <h6>code:411704</h6>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+      </div>
+    </div>
+    <marquee>
+      <h3 class="h3">If you're interested in exploring new projects or extending our collaboration further, we'd love to
+        hear from you! Drop us a note at polabathula.sriram@gmail.com, and let's discuss the possibilities.
+
+        Note: For inquiries about other projects, please contact us at polabathula.sriram@gmail.com. </h3>
+    </marquee>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"></script>
+
+    <script>
+
+
+
+
+
+      // Get the original price
+      var Watermelon_originalPrice = document.getElementById("Watermelon_originalPrice").innerHTML;
+
+      // Calculate the discounted price (50% off)
+      var Watermelon_discountedPrice = Watermelon_originalPrice * 0.5;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Watermelon_discountedPrice").innerHTML = Watermelon_discountedPrice;
+
+
+      // Get the original price
+      var Strawberry_originalPrice = document.getElementById("Strawberry_originalPrice").innerHTML;
+
+      // Calculate the discounted price (40% off)
+      var Strawberry_discountedPrice = Strawberry_originalPrice * 0.6;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Strawberry_discountedPrice").innerHTML = Strawberry_discountedPrice;
+
+      // Get the original price
+      var orange_originalPrice = document.getElementById("orange_originalPrice").innerHTML;
+
+      // Calculate the discounted price (40% off)
+      var orange_discountedPrice = orange_originalPrice * 0.6;
+
+      // Display the discounted price in the HTML
+      document.getElementById("orange_discountedPrice").innerHTML = orange_discountedPrice;
+
+      // Get the original price
+      var Strawberry_originalPrice = document.getElementById("Strawberry_originalPrice").innerHTML;
+
+      // Calculate the discounted price (40% off)
+      var Strawberry_discountedPrice = Strawberry_originalPrice * 0.6;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Strawberry_discountedPrice").innerHTML = Strawberry_discountedPrice;
+
+      // Get the original price
+      var kiwi_originalPrice = document.getElementById("kiwi_originalPrice").innerHTML;
+
+      // Calculate the discounted price (30% off)
+      var kiwi_discountedPrice = kiwi_originalPrice * 0.7;
+
+      // Display the discounted price in the HTML
+      document.getElementById("kiwi_discountedPrice").innerHTML = kiwi_discountedPrice;
+
+      // Get the original price
+      var greenapple_originalPrice = document.getElementById("greenapple_originalPrice").innerHTML;
+
+      // Calculate the discounted price (20% off)
+      var greenapple_discountedPrice = greenapple_originalPrice * 0.8;
+
+      // Display the discounted price in the HTML
+      document.getElementById("greenapple_discountedPrice").innerHTML = greenapple_discountedPrice;
+
+      // Get the original price
+      var Starfruit_originalPrice = document.getElementById("Starfruit_originalPrice").innerHTML;
+
+      // Calculate the discounted price (50% off)
+      var Starfruit_discountedPrice = Starfruit_originalPrice * 0.5;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Starfruit_discountedPrice").innerHTML = Starfruit_discountedPrice;
+
+
+
+      // Get the original price
+      var Promogranate_originalPrice = document.getElementById("Promogranate_originalPrice").innerHTML;
+
+      // Calculate the discounted price (60% off)
+      var Promogranate_discountedPrice = Promogranate_originalPrice * 0.4;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Promogranate_discountedPrice").innerHTML = Promogranate_discountedPrice;
+
+
+      // Get the original price
+      var cherry_originalPrice = document.getElementById("cherry_originalPrice").innerHTML;
+
+      // Calculate the discounted price (30% off)
+      var cherry_discountedPrice = cherry_originalPrice * 0.7;
+
+      // Display the discounted price in the HTML
+      document.getElementById("cherry_discountedPrice").innerHTML = cherry_discountedPrice;
+
+
+
+      // Get the original price
+      var mango_originalPrice = document.getElementById("mango_originalPrice").innerHTML;
+
+      // Calculate the discounted price (50% off)
+      var mango_discountedPrice = mango_originalPrice * 0.5;
+
+      // Display the discounted price in the HTML
+      document.getElementById("mango_discountedPrice").innerHTML = mango_discountedPrice;
+
+
+      // Get the original price
+      var grapes_originalPrice = document.getElementById("grapes_originalPrice").innerHTML;
+
+      // Calculate the discounted price (50% off)
+      var grapes_discountedPrice = grapes_originalPrice * 0.5;
+
+      // Display the discounted price in the HTML
+      document.getElementById("grapes_discountedPrice").innerHTML = grapes_discountedPrice;
+
+
+
+      // Get the original price
+      var blackgrapes_originalPrice = document.getElementById("blackgrapes_originalPrice").innerHTML;
+
+      // Calculate the discounted price (50% off)
+      var blackgrapes_discountedPrice = blackgrapes_originalPrice * 0.5;
+
+      // Display the discounted price in the HTML
+      document.getElementById("blackgrapes_discountedPrice").innerHTML = blackgrapes_discountedPrice;
+
+
+
+
+
+
+      // Get the original price
+      var Custardapple_originalPrice = document.getElementById("Custardapple_originalPrice").innerHTML;
+
+      // Calculate the discounted price (40% off)
+      var Custardapple_discountedPrice = Custardapple_originalPrice * 0.6;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Custardapple_discountedPrice").innerHTML = Custardapple_discountedPrice;
+
+
+
+      // Get the original price
+      var Papaya_originalPrice = document.getElementById("Papaya_originalPrice").innerHTML;
+
+      // Calculate the discounted price (40% off)
+      var Papaya_discountedPrice = Papaya_originalPrice * 0.6;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Papaya_discountedPrice").innerHTML = Papaya_discountedPrice;
+
+
+      // Get the original price
+      var Avocado_originalPrice = document.getElementById("Avocado_originalPrice").innerHTML;
+
+      // Calculate the discounted price (20% off)
+      var Avocado_discountedPrice = Avocado_originalPrice * 0.8;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Avocado_discountedPrice").innerHTML = Avocado_discountedPrice;
+
+
+      // Get the original price
+      var Pineapple_originalPrice = document.getElementById("Pineapple_originalPrice").innerHTML;
+
+      // Calculate the discounted price (30% off)
+      var Pineapple_discountedPrice = Pineapple_originalPrice * 0.7;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Pineapple_discountedPrice").innerHTML = Pineapple_discountedPrice;
+
+
+
+
+      // Get the original price
+      var Banana_originalPrice = document.getElementById("Banana_originalPrice").innerHTML;
+
+      // Calculate the discounted price (50% off)
+      var Banana_discountedPrice = Banana_originalPrice * 0.5;
+
+      // Display the discounted price in the HTML
+      document.getElementById("Banana_discountedPrice").innerHTML = Banana_discountedPrice;
+
+
+
+
+
+
+
+      // Activate the carousel and set interval for automatic movement
+      $(document).ready(function () {
+        $('.carousel').carousel({
+          interval: 1000 // Set interval time to 1 second (1000ms)
+        });
+      });
+
+
+
+
+
+
+    </script>
+    <style>
+      
+        h1 {
+      text-align: center;
+      /*font-family: 'Arial', sans-serif;*/
+      font-family: 'Roboto', sans-serif;
+      
+      font-size: 3em;
+      color: #036368; /* Cool blue color */
+      text-shadow: 2px 2px 4px rgb(255, 255, 255); /* Soft shadow for depth */
+      margin-top: 20px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .btn {
+      margin: 5px;
+    }
+
+    .btn-warning a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .btn-warning a:hover {
+      text-decoration: underline;
+    }
+      .card {
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .h3 {
+        color: rgb(233, 35, 35);
+      }
+
+      .card:hover {
+        transform: scale(1.06);
+      }
+
+      .nav-logo {
+
+        height: 50px;
+      }
+
+      del {
+        text-decoration: line-through;
+        color: rgb(228, 41, 41);
+      }
+
+      #Watermelon_discountedPrice {
+        color: rgb(25, 155, 25);
+        /* Set the color for the discounted price */
+      }
+
+      #Strawberry_discountedPrice {
+        color: rgb(34, 172, 34);
+      }
+
+      #orange_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #kiwi_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #greenapple_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #Starfruit_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #Promogranate_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #cherry_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #mango_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #grapes_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #blackgrapes_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #Custardapple_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #Papaya_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #Avocado_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #Pineapple_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+
+      #Ba_discountedPrice {
+        color: rgb(35, 158, 35);
+      }
+      #discountedPrice{
+        color: rgb(35, 158, 35);
+      }
+
+      .cart i {
+        font-size: 28px;
+        text-decoration: none;
+        
+        color: black;
+      }
+
+      a {
+        /* Change 'red' to your desired color */
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+      }
+
+      #h3 {
+        color: rgba(30, 206, 82, 0.569);
+        font-style: italic;
+      }
+
+      .marquee {
+        color: aquamarine;
+      }
+
+      .btn btn-warning {
+        color: rgb(255, 255, 255);
+      }
+   
+    </style>
+
+    <script src="script10.js"></script>
+
+  </body>
+
+</html>
