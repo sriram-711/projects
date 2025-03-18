@@ -1,0 +1,69 @@
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+.nav-logo{
+   
+    height: 50px;
+  }
+  del {
+    text-decoration: line-through;
+    color: darkred;
+} 
+
+#Watermelon_discountedPrice {
+    color: rgb(25, 155, 25); /* Set the color for the discounted price */
+} 
+#Strawberry_discountedPrice{
+    color: rgb(34, 172, 34);
+}
+#orange_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#kiwi_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#greenapple_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#Starfruit_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#Promogranate_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#cherry_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#mango_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#grapes_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#blackgrapes_discountedPrice{
+    color:rgb(35, 158, 35);
+}
+#Custardapple_discountedPrice{
+    color:rgb(35, 158, 35);   
+}
+#Papaya_discountedPrice{
+    color: rgb(35, 158, 35);
+}
+#Avocado_discountedPrice{
+    color: rgb(35, 158, 35);
+}
+#Pineapple_discountedPrice{
+    color: rgb(35, 158, 35);
+}
+#Banana_discountedPrice{
+    color: rgb(35, 158, 35);
+}
+.cart i{
+    font-size:28px;
+    text-decoration: none;
+    color: black;
+}
